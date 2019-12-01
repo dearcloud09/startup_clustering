@@ -1,4 +1,4 @@
-### Categorizing Domains with Startup Introduction Text
+# Categorizing Domains with Startup Introduction Text
 ## There's a spy between us!
 
 * The original article was published in https://brunch.co.kr/@cloud09/321. This is a translated version.
@@ -9,13 +9,12 @@ I was very curious when I saw the data two to three months ago. Startup is categ
 
 This is how the process works.
 
-1. Planning the analysis method
-2. Collecting data
-3. Text pre-treatment
-4. Categorizing
-5. Check results
-6. Visualization
-
+> 1. Planning the analysis method
+> 2. Collecting data
+> 3. Text pre-treatment
+> 4. Categorizing
+> 5. Check results
+> 6. Visualization
 
 1. Planning the analysis method
 
@@ -67,11 +66,11 @@ The results of K-means seem to have come out more neatly because the data I gath
 So 14 classifications have been given as follows : The title below the cluster number is what I named after the bundle of words per cluster.
 
 
-![cluster_result1](/clustering1.png)
+![cluster_result1](/cluster1.png)
 
-![cluster_result2](/clustering2.png)
+![cluster_result2](/cluster2.png)
 
-![cluster_result3](/clustering3.png)
+![cluster_result3](/cluster3.png)
 
 For your information, Bucket Place, which was classified as home service in Startup Alliance, was classified as an interior cluster. The companies in the interior cluster outside of Bucket Place included the house floor, interior gentleman, space leven and so on. On the other hand, there are no clusters of domestic services such as smiles and cleaning laboratories, which do not appear to be formed because there are not many domestic service companies to form a cluster and because the introduction of the company does not reveal the domestic service. (There were not nearly 5600 periods of data - driven or matching algorithms.) To avoid increasing the number of clusters, the silhouettes index was the highest but smaller, but we did not check by increasing the number of clusters. When checking the results one by one, they are not completely classified, but if it is really important to categorize them well, it would be better to define the candidate group based on the results (after human modification).
 
