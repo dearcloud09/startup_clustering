@@ -85,3 +85,7 @@ Visualization of the document unit was reduced to t-sne, creating plots as a boa
 To conclude, I thought about this toy project again and I had fun. And I want to cherish the feeling of wanting to know what I am (out of the blue. I think it's a good idea to take care of things because they often shrink after they look like their own. I'll end with a meme that I had a lot of empathy with doing the Toy project.
 
 ![meme](/just_do_it.jpeg)
+
+> Why the hell do you do that?
+> 
+>  Damn it, I don't need a reason to play the game! Just do it!
